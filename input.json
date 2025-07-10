@@ -1,0 +1,8 @@
+{
+  "processes": [
+    { "name": "P1", "arrival": 0, "burst": 7, "priority": 3 },
+    { "name": "P2", "arrival": 2, "burst": 4, "priority": 1 },
+    { "name": "P3", "arrival": 4, "burst": 1, "priority": 4 },
+    { "name": "P4", "arrival": 5, "burst": 4, "priority": 2 }
+  ]
+}
