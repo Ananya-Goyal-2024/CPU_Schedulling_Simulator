@@ -40,8 +40,8 @@ Edit
 json
 Copy
 Edit
+
 {
-   
    "algorithm": "RR",
   
    "quantum": 4,
@@ -60,6 +60,7 @@ Edit
   
 }
 
+
 🛠️ How to Run
 
 🧾 Compile the code:
@@ -67,15 +68,21 @@ Edit
 bash
 Copy
 Edit
+
 g++ OSproject.cpp -o OSproject
+
 ▶️ Run the executable:
+
 bash
 Copy
 Edit
 ./OSproject
+
 Follow the prompts to select algorithm and input mode.
 
+
 📦 Dependencies
+
 nlohmann/json.hpp — for parsing JSON input
 
 👩‍💻 Author
