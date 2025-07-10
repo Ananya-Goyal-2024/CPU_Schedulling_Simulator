@@ -25,28 +25,45 @@ This is a console-based C++ project that simulates various CPU scheduling algori
 pgsql
 Copy
 Edit
-.
-├── OSproject             // Executable (compiled binary)
-├── OSproject.cpp         // Main C++ source file
-├── json.hpp              // JSON parser (nlohmann library)
-├── input.json            // Sample input file with process data
-└── .vscode/settings.json // VS Code configuration
+*  OSproject                // Executable (compiled binary)
+  
+*  OSproject.cpp            // Main C++ source file
+
+*  son.hpp                  // JSON parser (nlohmann library)
+  
+*  nput.json                // Sample input file with process data
+  
+*  .vscode/settings.json    // VS Code configuration
+
+  
 🧪 Sample Input: input.json
 json
 Copy
 Edit
 {
-  "algorithm": "RR",
-  "quantum": 4,
-  "mode": "Trace+Stats",
-  "processes": [
-    { "pid": 1, "arrival": 0, "burst": 5, "priority": 2 },
-    { "pid": 2, "arrival": 2, "burst": 3, "priority": 1 },
-    { "pid": 3, "arrival": 4, "burst": 8, "priority": 3 }
+   
+   "algorithm": "RR",
+  
+   "quantum": 4,
+  
+   "mode": "Trace+Stats",
+   
+   "processes": [
+   
+     { "pid": 1, "arrival": 0, "burst": 5, "priority": 2 },
+     
+     { "pid": 2, "arrival": 2, "burst": 3, "priority": 1 },
+     
+     { "pid": 3, "arrival": 4, "burst": 8, "priority": 3 }
+     
   ]
+  
 }
+
 🛠️ How to Run
+
 🧾 Compile the code:
+
 bash
 Copy
 Edit
