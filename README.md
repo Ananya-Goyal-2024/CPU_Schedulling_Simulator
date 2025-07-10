@@ -37,8 +37,7 @@ Edit
 ---
 
 ## 🧪 Sample Input (`input.json`)
-
-```json
+json
 {
   "algorithm": "RR",
   "quantum": 4,
