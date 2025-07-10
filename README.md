@@ -22,22 +22,19 @@ This is a console-based C++ project that simulates various CPU scheduling algori
 ---
 
 ## 📂 File Structure
-
-.
-├── OSproject // Executable (or compiled binary)
-├── OSproject.cpp // Main C++ source file
-├── json.hpp // JSON parser (nlohmann library)
-├── input.json // Sample input file with process data
-└── .vscode/settings.json
-
-yaml
+pgsql
 Copy
 Edit
-
----
-
-## 🧪 Sample Input (`input.json`)
+.
+├── OSproject             // Executable (compiled binary)
+├── OSproject.cpp         // Main C++ source file
+├── json.hpp              // JSON parser (nlohmann library)
+├── input.json            // Sample input file with process data
+└── .vscode/settings.json // VS Code configuration
+🧪 Sample Input: input.json
 json
+Copy
+Edit
 {
   "algorithm": "RR",
   "quantum": 4,
@@ -48,15 +45,13 @@ json
     { "pid": 3, "arrival": 4, "burst": 8, "priority": 3 }
   ]
 }
-🔧 How to Run
-Compile the code:
-
+🛠️ How to Run
+🧾 Compile the code:
 bash
 Copy
 Edit
 g++ OSproject.cpp -o OSproject
-Run the executable:
-
+▶️ Run the executable:
 bash
 Copy
 Edit
@@ -68,4 +63,5 @@ nlohmann/json.hpp — for parsing JSON input
 
 👩‍💻 Author
 Ananya Goyal
-LinkedIn -> https://www.linkedin.com/in/ananya-goyal-824690288/
+🔗 LinkedIn Profile
+
